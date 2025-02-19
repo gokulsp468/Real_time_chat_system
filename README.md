@@ -51,7 +51,7 @@ ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 ```
 
-Run migrations to create the tables:F
+Run migrations to create the tables:
 ```sh
 alembic upgrade head
 ```
