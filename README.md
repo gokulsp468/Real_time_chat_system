@@ -70,8 +70,8 @@ uvicorn main:app --reload
 - `POST /auth/register/` → to signup
 
     Chat Rooms
-- `POST /rooms/` → Create a chat room
-- `GET /rooms/` → List all rooms
+- `POST /rooms/create/` → Create a chat room
+- `GET /rooms/list/` → List all rooms
 
 
     WebSocket Connection
@@ -81,7 +81,7 @@ uvicorn main:app --reload
 
    Testing with Postman
 1.  Login to get JWT token  → `POST /auth/login/`
-2.  Create a room  → `POST /rooms/`
+2.  Create a room  → `POST /rooms/create/`
 3.  Connect WebSocket  via Postman or WebSocket client
 4.  Send and receive messages 
 
