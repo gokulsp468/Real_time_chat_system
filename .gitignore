@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+
+# Virtual environment
+venv/
+.venv/
+
+# Python environment and cache files
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+pip-log.txt
+
+# pytest cache
+.cache/
+
+# Database migrations (Alembic)
+migrations/versions/*.pyc
+migrations/versions/*.pyc~
+migrations/versions/__pycache__/
+migrations/env.pyc
+migrations/env.pyc~
+
+# PostgreSQL-related files
+*.pgsql
+*.sql
+*.db
+*.sqlite3
+
+# MacOS-specific files
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE-specific files
+.idea/
+
+# PyCharm-related files
+*.iml
+*.iws
+*.ipr
+out/
+
+# Coverage and testing
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.coverage.*
+
+# Mypy
+.mypy_cache/
+
+# Temp files
+*.tmp
+*.temp
+~*
+
+# Docker-related
+*.pid
+.dockerignore
+
+# Local packages
+*.wheel
+node_modules/
+
+# Alembic migration logs
+migrations/versions/__pycache__/
+migrations/versions/*~backup
+migrations/versions/*~tmp
